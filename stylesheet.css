@@ -1,0 +1,146 @@
+/*	Remove homepage header */
+#collection-657e1454effcb828c6e6a305 header {
+  display:none;
+}
+
+/* Remove link underline & all other link styling  */
+a {
+  text-decoration: none !important;
+}
+
+
+/* Media query allowing for optimal mobile & small screen responsivity  */
+
+/* CONTACT PAGE: This first ID style flips the text "CONTACT" label on the contact page sideways  */
+@media (min-width:740px){
+#block-yui_3_17_2_1_1703872501316_58344 {
+ 	writing-mode: vertical-rl;
+	transform: rotate(180deg);
+	position: absolute !important;
+	margin: 0 20px 40px 10px;
+	z-index: 1;
+	height: auto;
+  }
+
+/* Expand Instagram gallery to fit full page width  */
+.sqs-gallery {
+ 	width: 100vw;
+	height: 30vh;
+	position: static;
+	margin:0;
+  }
+
+#yui_3_17_2_1_1703942372804_428 {
+  width: 100vw;
+  }
+
+/* Center images in Instagram gallery */
+#block-yui_3_17_2_1_1703872501316_6715 img.loaded{top: 0 !important;}
+
+/*	ABOUT PAGE 
+	flip the text "ABOUT" label on the contact page sideways	*/
+#block-yui_3_17_2_1_1703942357698_5918 {
+	writing-mode: vertical-rl;
+	transform: rotate(180deg);
+	position: absolute !important;
+	margin: 0 20px 40px 10px;
+	z-index: 1;
+	height: auto;
+  }
+
+/* flip the text "CLIENTS" label on the contact page sideways	 */
+#block-53c3a4548d08a7b945fb {
+	writing-mode: vertical-rl;
+	transform: rotate(180deg);
+	position: absolute !important;
+	margin: 0 20px 40px 10px;
+	z-index: 1;
+	height: auto;
+  }
+  
+section[data-section-id="658510ca93bb5513bd02a955"] {
+  position: absolute !important;
+  }
+  
+#block-yui_3_17_2_1_1703942357698_21274 {
+	writing-mode: vertical-rl;
+	transform: rotate(180deg);
+	position: static;
+	margin: 0 20px 40px 10px;
+	z-index: -1;
+    height: auto;
+  }
+  
+section[data-section-id="6583a3ab0ee347788ddd467b"]{
+  margin: 8em 0 0 8em;
+  }
+  
+section[data-section-id="6585119be581504d044e7a85"]{
+  position: absolute !important;
+  }
+  
+#block-40bc5ec783cffb8f8b85 {
+	writing-mode: vertical-rl;
+	transform: rotate(180deg);
+	position: static;
+	margin: 0 20px 40px 10px;
+	z-index: -1;
+    height: auto;
+  }
+  
+section[data-section-id="65845e1036a22e1f5b851a27"] {
+  margin: 8em 0 0 8em;
+  }
+  
+section[data-section-id="658511b3ec8983652b2892bc"] {
+  position: absolute !important;
+  }
+  
+section[data-section-id="65845e31f5242d589355527a"] {
+  margin: 8em 0 0 8em;
+  }
+  
+#block-4fcd0a6320d31e950118 {
+	writing-mode: vertical-rl;
+	transform: rotate(180deg);
+	position: static;
+	margin: 0 20px 40px 10px;
+	z-index: -1;
+    height: auto;
+  }
+  
+section[data-section-id="6585b96636a22e1f5bb699f2"] {
+  position: absolute !important;
+  }
+  
+#block-14aa69721163961d7f62 {
+	writing-mode: vertical-rl;
+	transform: rotate(180deg);
+	position: static;
+	margin: 0 20px 40px 10px;
+	z-index: -1;
+    height: auto;
+  }
+  
+section[data-section-id="658459250998666fbba8d7dd"] {
+    margin: 8em 0 0 8em;
+  }
+  
+ #block-yui_3_17_2_1_1703955053867_12770 {
+ 	writing-mode: vertical-rl;
+	transform: rotate(180deg);
+	position: static;
+	margin: 0 20px 40px 10px;
+	z-index: -1;
+    height: auto;
+  }
+  
+#block-yui_3_17_2_1_1703170970665_14705 :hover section[data-section-id="65845b23000e266ad085978b"]
+.section-background {
+    background: url();
+    background-size: 800% 800%;
+    -webkit-animation: AnimationName 38s ease infinite;
+    -moz-animation: AnimationName 38s ease infinite;
+    animation: AnimationName 38s ease infinite;
+}
+}
