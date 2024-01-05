@@ -38,7 +38,7 @@ a {
 #block-yui_3_17_2_1_1703872501316_6715 img.loaded{top: 0 !important;}
 
 /*	ABOUT PAGE 
-	flip the text "ABOUT" label on the contact page sideways	*/
+	flip the text "ABOUT" label on the about page sideways	*/
 #block-yui_3_17_2_1_1703942357698_5918 {
 	writing-mode: vertical-rl;
 	transform: rotate(180deg);
@@ -48,7 +48,7 @@ a {
 	height: auto;
   }
 
-/* flip the text "CLIENTS" label on the contact page sideways	 */
+/* flip the text "CLIENTS" label on the about page sideways	 */
 #block-53c3a4548d08a7b945fb {
 	writing-mode: vertical-rl;
 	transform: rotate(180deg);
@@ -135,12 +135,15 @@ section[data-section-id="658459250998666fbba8d7dd"] {
     height: auto;
   }
   
-#block-yui_3_17_2_1_1703170970665_14705 :hover section[data-section-id="65845b23000e266ad085978b"]
-.section-background {
+/* 
+	Currently working on the hover image effects 
+	
+	#block-yui_3_17_2_1_1703170970665_14705 :hover section[data-section-id="65845b23000e266ad085978b"]
+	.section-background {
     background: url();
     background-size: 800% 800%;
     -webkit-animation: AnimationName 38s ease infinite;
     -moz-animation: AnimationName 38s ease infinite;
     animation: AnimationName 38s ease infinite;
-}
+} */
 }
